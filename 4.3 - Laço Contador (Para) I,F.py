@@ -1,0 +1,12 @@
+# Este tipo de laço é empregado melhor em situações em que o programador sabe de antemão 
+# a quantidade de voltas que serão executadas.
+
+soma = 0
+print("Digite 10 números")
+
+# Laço configurado para 10 voltas
+for i in range(1, 11, 1):
+    n = float(input())
+    soma = soma + n
+
+print("Somatória = ", soma)
